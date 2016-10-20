@@ -1,34 +1,71 @@
-h1,h2,h3,h4,h5,h6 {
-	background: white;
-	color: black;
-	font-family: 'Amatic SC', cursive;
-	font-size: 30px;
-}
-#name, #interests, #me, #nav{text-align:center;}
-
-h1 {font-size: 80px;}
-
-p {
-	background: white;
+h1,h2,h3,ul,p {
+  color: white;
+  font-family: 'Raleway', sans-serif;
 }
 
-body, h1, h2, img, p {
-	border: 1px  white;
+.name {display:inline; float:left; margin:15 auto;}
+
+.nav {display:inline; float:right; margin-bottom:0;
 }
 
-i, a {
-	border: 1px white;
+ul {display:inline; float:right; list-style:none;}
+
+li {display:inline;}
+
+h1 a { font-size: 38px; text-decoration: none;
 }
 
-.white {
-	backrground: white;
+h1.thicker {font-weight:bold;}
+
+
+body {background-image: url(bodega.jpg); background-size: cover;
 }
-ul {
-	font-family: 'Amatic SC', cursive;
-	font-size: 30px;
-	color: black;
-}
+
+
 li {
-	display: inline;
-	margin: 20px;
+  display: inline;
+  margin: 0; float: right;
+}
+ul { font-size: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+ 
+}
+
+
+@media screen and (max-width 420px) { 
+  body { font-size: 100% }
+}
+/* unvisited link */
+a:link {
+  color: whitesmoke;
+}
+
+/* visited link */
+a:visited {
+  color: whitesmoke;
+}
+
+/* mouse over link */
+a:hover {
+  color: cornsilk;
+}
+
+/* selected link */
+a:active {
+  color: powderblue;
 }
