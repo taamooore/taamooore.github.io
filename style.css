@@ -46,10 +46,6 @@ li a:hover {
  
 }
 
-
-@media screen and (max-width 320px) { 
-  body { margin: 0px auto; font-size: 80%; padding: 1%;background: #a3c2c2; }
-}
 /* unvisited link */
 a:link {
   color: whitesmoke;
@@ -68,4 +64,9 @@ a:hover {
 /* selected link */
 a:active {
   color: powderblue;
+}
+@media screen and (max-width 320px) { 
+  h1,h2,ul{ font-size:0.9em;}
+  p{ font-size: 0.7em;}
+  body { margin: 0px auto; font-size: 80%; padding: 1%;background: #a3c2c2; }
 }
