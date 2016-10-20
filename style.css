@@ -12,7 +12,7 @@ ul {display:inline; float:right; list-style:none;}
 
 li {display:inline;}
 
-h1 a { font-size: 38px; text-decoration: none;
+h1 a { font-size: 38px; text-decoration: none; margin: 5px;
 }
 
 h1.thicker {font-weight:bold;}
