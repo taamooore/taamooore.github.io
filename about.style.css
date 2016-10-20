@@ -1,0 +1,12 @@
+h1,h2,ul,p,li {color:white;}
+
+p {text-align:center; display:inline-grid; width: 100%;
+    padding: 10px 12px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+body {background: #a6bfd9; 
+}
+
+h2 {font-size: 40px; text-align: center}
